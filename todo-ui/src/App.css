@@ -1,0 +1,17 @@
+.footer{
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.action-buttons {
+    display: flex;                /* Sử dụng Flexbox để căn chỉnh các nút */
+    align-items: center;         /* Căn giữa theo chiều dọc */
+    justify-content: flex-start; /* Căn trái theo chiều ngang */
+    flex-wrap: nowrap;           /* Ngăn không cho các nút xuống hàng */
+    gap: 10px;                   /* Khoảng cách giữa các nút */
+}
